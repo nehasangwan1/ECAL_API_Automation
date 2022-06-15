@@ -1,0 +1,54 @@
+{
+    "statuses": [
+        {
+            "id": 1,
+            "name": "Arrived"
+        },
+        {
+            "id":2,
+            "name":"Canceled"
+        },
+        {
+            "id":3,
+            "name":"check In"
+        },
+        {
+            "id":4,
+            "name":"Checked Out"
+        },
+        {
+            "id":5,
+            "name":"confirmed"
+        },
+        {
+            "id":6,
+            "name":"Draft"
+        },
+        {
+            "id":7,
+            "name":"In Progress"
+        },
+        {
+            "id":8,
+            "name":"No Show"
+        },
+        {
+            "id":11,
+            "name":"Ready to CheckOut"
+        },
+        {
+            "id":12,
+            "name":"Rescheduled"
+        },
+        {
+            "id":9,
+            "name":"Schedule"
+        },
+        {
+            "id":10,
+            "name":"Waitlist"
+        }
+
+    ]
+
+}

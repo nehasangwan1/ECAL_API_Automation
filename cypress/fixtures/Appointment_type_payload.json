@@ -1,0 +1,24 @@
+{
+    "location_ids": [
+        7
+    ],
+    "name": "Drug test",
+    "color": "#005500FF",
+    "description": "",
+    "duration": 5,
+    "is_enabled": true,
+    "templates": [
+        {
+            "document_category_id": 96,
+            "document_id_list": [
+                475
+            ]
+        },
+        {
+            "document_category_id": 97,
+            "document_id_list": [
+                223
+            ]
+        }
+    ]
+}

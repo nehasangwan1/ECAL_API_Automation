@@ -1,0 +1,21 @@
+{
+
+    "status_get_all": "appointment-statuses?page=0&size=500&sort=isEnabled,DESC&sort=name,ASC&",
+    "status_id": "appointment-statuses",
+
+    "appointment_type_get_all": "appointment-types?page=0&size=500&sort=isEnabled,DESC&sort=name,ASC&",
+    "appointment_type_id": "appointment-types",
+
+
+    "communication_get_all" : "communication-templates?page=0&size=500&sort=enabled,DESC&sort=name,ASC&",
+    "communication_id" : "communication-templates",
+     
+
+    "Calendar_templates_get_all": "schedule-templates?page=0&size=500&sort=enabled,DESC&sort=name,ASC&",
+     "Calendar_templates_id": "schedule-templates",
+     
+     "Resource_schedule_id": "resource-schedules"
+
+     
+
+}

@@ -1,0 +1,85 @@
+{
+    "id": 0,
+    "name": "ekta",
+    "preferred_communication": false,
+    "email": true,
+    "text": true,
+    "appointment_type_ids": [],
+    "enabled": true,
+    "send_to": [
+        102,
+        103
+    ],
+    "start_date": "2022-05-01",
+    "end_date": "",
+    "location_ids": [
+        7
+    ],
+    "providers": [
+        "380-PERSON",
+        "373-PERSON",
+        "310-PERSON",
+        "100-PERSON",
+        "101-PERSON",
+        "412-PERSON",
+        "391-PERSON",
+        "144-PERSON",
+        "70-PERSON",
+        "338-PERSON",
+        "149-PERSON",
+        "410-PERSON",
+        "514-PERSON",
+        "269-PERSON",
+        "316-PERSON",
+        "446-PERSON",
+        "376-PERSON",
+        "445-PERSON",
+        "303-PERSON",
+        "505-PERSON",
+        "125-PERSON",
+        "355-PERSON",
+        "366-PERSON",
+        "504-PERSON",
+        "106-PERSON",
+        "459-PERSON"
+    ],
+    "communication": {
+        "event_based_checked": false,
+        "time_based_checked": false,
+        "exception_based_checked": false,
+        "repeat_checked": false
+    },
+    "communication_channels": [
+        {
+            "type_id": 118,
+            "body": "Hi {{recipient.firstName}} {{recipient.preferredName}} {{recipient.lastName | first}}, This is a confirmation of your appointment with us at {{recipient.appointmentTime}}. To view details of your appointment, please log in at {{portalURL}}.",
+            "id": ""
+        },
+        {
+            "type_id": 119,
+            "subject": "Appointment Confirmation",
+            "body": "<p>Hi {{recipient.firstName}} {{recipient.preferredName}} {{recipient.lastName | first}},</p><p>\nThis is a confirmation of your appointment with us. To view details of your appointment, please log in at {{portalURL}}.</p><p>\nDate &amp; Time : {{recipient.appointmentDate}} at {{recipient.appointmentTime}}</p><p>\nRegards.</p><p>\n{{recipient.telehealthBox}}</p>",
+            "telehealth_body": "This is a telehealth Appointment. Please click {{recipient.joiningUrl}} to join the meeting.",
+            "check": true,
+            "id": ""
+        }
+    ],
+    "criteria": {
+        "appointment_updates": {
+            "location": false,
+            "appointment_type": false,
+            "resource": false,
+            "room": false
+        },
+        "event_based": [
+            {
+                "from_status": -1,
+                "to_status": 9,
+                "resource_communication_id": 135,
+                "id": ""
+            }
+        ],
+        "time_based": []
+    },
+    "rulesCheck": true
+}

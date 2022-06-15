@@ -1,0 +1,56 @@
+{
+    "name": "Dr salvatore",
+    "description": "",
+    "effective_from": "2022-06-09",
+    "effective_to": "2022-06-30",
+    "default_time_zone_id": 100,
+    "first_day_of_week": "SUNDAY",
+    "enabled": true,
+    "show_week_numbers": true,
+    "activities": [
+        {
+            "activity_name": "working hours",
+            "activity_type_id": 3,
+            "appointment_type_ids": [],
+            "activity_from": "2022-06-09",
+            "activity_to": "2022-06-30",
+            "location_ids": [
+                7
+            ],
+            "allDay": false,
+            "from": "2022-06-09T09:00:00.000Z",
+            "to": "2022-06-09T23:00:00.000Z",
+            "frequency": "DAILY",
+            "select_week_number": "",
+            "appointment_block_override": false,
+            "repeat_every": 1,
+            "red": 64,
+            "repeat_in_week": "01",
+            "days": [
+                "MO",
+                "TU",
+                "WE",
+                "TH",
+                "FR",
+                "SA",
+                "SU"
+            ],
+            "yearly_month_first_dropdown": 1,
+            "yearly_month_second_dropdown": 1,
+            "r_dates": [],
+            "weeks": 1,
+            "first_day_textfield": 1,
+            "second_day_textfield": "MO",
+            "radio_btn": "one",
+            "ends": "on",
+            "afterCount": null,
+            "activity_type_name": "Working Hours",
+            "recurrence_pattern": "DTSTART=20220609T033000Z;UNTIL=20220630T173000Z;INTERVAL=1;FREQ=DAILY;BYDAY=MO,TU,WE,TH,FR,SA,SU;",
+            "effective_from": "2022-06-09T09:00:00.000Z",
+            "effective_to": "2022-06-30T23:00:00.000Z",
+            "fromExternalForm": true
+        }
+    ],
+    "removed": [],
+    "dates": []
+}

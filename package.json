@@ -1,0 +1,19 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "API automation in cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  },
+  "devDependencies": {
+    "cypress-grep": "^2.13.1",
+    "cypress-select-tests": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:apitest": "cypress run --env grepTags='ekta'"
+  },
+  "author": "Ekta Goswami",
+  "license": "ISC"
+}

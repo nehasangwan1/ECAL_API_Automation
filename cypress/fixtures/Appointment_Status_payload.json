@@ -1,0 +1,20 @@
+
+
+{
+    "id": 1,
+    "name": "Arrived",
+    "description": "This is the status when patient is arrived",
+    "alias": "Arrived",
+    "action": "Arrive",
+    "is_enabled": true,
+    "document": {
+        "name": "icon",
+        "content": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAM1BMVEVHcEwYjwAbjwAbjwAcjwAcjgAbjwAQjwAbjwAbjgAbjwAcjgAcjwAajwAcjgAbjgAcjwB6U7xNAAAAEHRSTlMAIOCgQLB4EGDQMPDvUMCQQtOO2AAAAMJJREFUKM9tkVkChCAMQwELiCzm/qedFBGXsR8gebRNxZgZUSSav4jBgeHCi60FI8r60IEcNmO2kIEbqYAfJaIH6gQOjeu2LEwyCe5WyHJjlcLNXsU8PFfR1tKPywCpX4nMyHoMSAMcF88emjpBfXmfpQLvec5YFubus9ROg/WcXGh+H0ANTlCH+R4NLkpTuW3RdfMzhdatiNUpsr2MBGj/59c5/PEf2MA/3yl1Qj29XkqJfOidlC/9yPnSlXzrJHf9B9YwCkWfWYqrAAAAAElFTkSuQmCC"
+    },
+    "valid_transition": [
+        7,
+        3
+    ],
+    "visibility": true,
+    "valid_transition_flag": true
+}
